@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KicksHub - Sneaker Store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-32x32.png">
+</head>
+
+<body>
+  <!-- Sticky Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <i class="fas fa-shoe-prints"></i> KicksHub
+      </a>
+      <ul class="nav-links">
+        <li><a href="#new">New Arrivals</a></li>
+        <li><a href="#men">Men's Sneakers</a></li>
+        <li><a href="#women">Women's Sneakers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Step Up Your Style with KicksHub</h1>
+    <button class="purchase-btn buy-btn">Purchase Now</button>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <!-- New Arrivals Section -->
+    <section class="fade-in" id="new">
+      <h2>New Arrivals</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="Images/readsneaker.png" alt="Red Running Sneakers">
+          <h3>Red Runner 2025</h3>
+          <p class="description">Experience ultimate comfort and style with our latest Red Runner sneakers.</p>
+          <p class="price">$120</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="Images/black-sneakers.png" alt="Black Sport Sneakers">
+          <h3>Black Sport Flex</h3>
+          <p class="description">Sleek and versatile, the Black Sport Flex is perfect for workouts or casual wear.</p>
+          <p class="price">$105</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="Images/whitesneaker.png" alt="White Classic Sneakers">
+          <h3>White Classic</h3>
+          <p class="description">Timeless design meets modern comfort in our White Classic sneakers.</p>
+          <p class="price">$110</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Men's Sneakers Section -->
+    <section class="fade-in" id="men">
+      <h2>Men's Sneakers</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="Images/graysneakermen.png" alt="Grey Mesh Runner">
+          <h3>Grey Mesh Runner</h3>
+          <p class="description">Lightweight comfort and breathability with Grey Mesh Runner.</p>
+          <p class="price">$115</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="Images/bluemansneaker.png" alt="Navy Sport Runner">
+          <h3>Navy Sport Runner</h3>
+          <p class="description">Sleek navy blue design with white accents. Perfect for workouts & casual wear.</p>
+          <p class="price">$95</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="Images/brownmensneaker.png" alt="Brown Leather Classic">
+          <h3>Brown Leather Classic</h3>
+          <p class="description">Premium brown leather, timeless look ideal for any occasion.</p>
+          <p class="price">$160</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Women's Sneakers Section -->
+    <section class="fade-in" id="women">
+      <h2>Women's Sneakers</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="Images/pinkwomensneaker.png" alt="Pink Breeze Sneaker">
+          <h3>Pink Breeze Sneaker</h3>
+          <p class="description">Light pink tones meet modern comfort for all-day wear.</p>
+          <p class="price">$120</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="Images/whitewomensneaker.png" alt="White Sky Lite">
+          <h3>White Sky Lite</h3>
+          <p class="description">Elegant and fresh, subtle pastel blue accents for everyday style.</p>
+          <p class="price">$100</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="Images/purplewomensneaker.png" alt="Lavender Glow">
+          <h3>Lavender Glow</h3>
+          <p class="description">Pastel purple design with clean white soles for a trendy statement.</p>
+          <p class="price">$109</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section fade-in">
+    <h2>Get in Touch</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Follow us:</p>
+    <div class="social-links">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p style="margin-top:10px; font-size: 0.9em;">&copy; 2025 KicksHub. All rights reserved.</p>
+  </footer>
+
+  <!-- Scroll & Back To Top Logic -->
+  <script>
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTop.style.display = 'block';
+      } else {
+        backToTop.style.display = 'none';
+      }
+      document.querySelectorAll('.fade-in').forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if (sectionTop < window.innerHeight - 50) {
+          section.classList.add('visible');
+        }
+      });
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+  <!-- Buy Now Modal -->
+  <div id="buyModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.5); z-index:1000;">
+    <div style="background:#fff; padding:20px; max-width:400px; margin:100px auto; border-radius:10px; text-align:center;">
+      <h2>Payment Integration Available on Real Projects</h2>
+      <p>This is a demo website for showcasing design and layout. Full payment functionality will be implemented in real client projects as per requirements.</p>
+      <button onclick="document.getElementById('buyModal').style.display='none'" style="margin-top:10px; padding:10px 20px; background-color:#e91e63; color:white; border:none; border-radius:5px;">Close</button>
+    </div>
+  </div>
+
+  <!-- Buy Now Button Logic -->
+  <script>
+    const buyButtons = document.querySelectorAll('.buy-btn');
+    buyButtons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.getElementById('buyModal').style.display = 'block';
+      });
+    });
+  </script>
+
+</body>
+
+</html>
